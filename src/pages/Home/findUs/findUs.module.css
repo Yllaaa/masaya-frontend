@@ -1,0 +1,52 @@
+.findUsSection {
+  width: 100%;
+  height: fit-content;
+  min-height: 35rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.findUsHeader {
+  width: 100%;
+  height: 20vh;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto 0;
+  position: relative;
+}
+.TextexplorefindUs {
+  width: 80%;
+  height: fit-content;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto 0;
+}
+.lebanonWord {
+  position: absolute;
+  width: 20%;
+  height: 70%;
+  min-height: 15rem;
+  align-self: flex-end;
+  bottom: 0;
+  right: 0;
+}
+.lebanonWord img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 220px) and (max-width: 768px) {
+  .lebanonWord {
+    display: none;
+  }
+  .TextexplorefindUs {
+    width: 100%;
+  }
+}
