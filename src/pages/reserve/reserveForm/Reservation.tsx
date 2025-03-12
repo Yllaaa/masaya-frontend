@@ -31,6 +31,7 @@ const ReservationForm = (props: Props) => {
       guests,
     };
     try {
+      
       await emailjs.send(
         "service_t9atz5r",
         "template_1v31nnf",

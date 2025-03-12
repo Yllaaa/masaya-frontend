@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState, useMemo, Suspense, lazy, useEffect } from "react";
 import Pagination from "../pagination/Pagination";
 import styles from "./menuGrid.module.css";
@@ -5,14 +6,16 @@ import styles from "./menuGrid.module.css";
 const MenuCard = lazy(() => import("../cards/menuCard/MenuCard"));
 
 type MenuGridProps = {
-  cards: {
-    id: number;
-    name: string;
-    type: string;
-    image: string;
-    description: string;
-    price: number;
-  }[];
+  cards:
+    | {
+        id: number;
+        name: string;
+        type: string;
+        image: string;
+        description: string;
+        price: number;
+      }[]
+    | any;
   currentFilter: string;
 };
 
@@ -41,7 +44,7 @@ const MenuGrid: React.FC<MenuGridProps> = React.memo(
       <>
         <Suspense fallback={<div>Loading...</div>}>
           <div className={styles.menuGrid}>
-            {paginatedItems.map((item) => (
+            {paginatedItems.map((item: any) => (
               <div key={item.id}>
                 <MenuCard card={item} />
               </div>

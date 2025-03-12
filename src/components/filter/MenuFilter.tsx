@@ -16,10 +16,16 @@ const MenuFilter: React.FC<MenuFilterProps> = ({
   const { t } = useTranslation();
   const menuTypes = [
     `${t("menuFilter.all")}`,
+    `${t("menuFilter.salad")}`,
+    `${t("menuFilter.mezah")}`,
+    `${t("menuFilter.arayes")}`,
+    `${t("menuFilter.fette")}`,
+    `${t("menuFilter.Sopas")}`,
+    `${t("menuFilter.Pescados")}`,
+    `${t("menuFilter.carne")}`,
+    `${t("menuFilter.Combinados")}`,
     `${t("menuFilter.appetizer")}`,
-    `${t("menuFilter.bakery")}`,
-    `${t("menuFilter.meat")}`,
-    `${t("menuFilter.chicken")}`,
+    `${t("menuFilter.desserts")}`,
   ];
   return (
     <div className={styles.filterContainer}>
