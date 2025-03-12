@@ -24,9 +24,10 @@
   -o-transition: all 0.4s;
 }
 .filterContainer {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1.5vw;
 }
