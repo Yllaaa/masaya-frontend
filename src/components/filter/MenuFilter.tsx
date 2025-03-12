@@ -26,6 +26,7 @@ const MenuFilter: React.FC<MenuFilterProps> = ({
     `${t("menuFilter.Combinados")}`,
     `${t("menuFilter.appetizer")}`,
     `${t("menuFilter.desserts")}`,
+    `${t("menuFilter.beverages")}`,
   ];
   return (
     <div className={styles.filterContainer}>

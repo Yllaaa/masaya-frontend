@@ -101,6 +101,7 @@ const resources = {
         Combinados: "Combinados",
         appetizer: "Appetizer",
         desserts: "Desserts",
+        beverages: "Beverages",
       },
       menuItem: {
         tabule: "Parsley, tomato, onion, wheat semolina, olive oil and lemon",
@@ -208,6 +209,18 @@ const resources = {
         macedoniaConNataCasera:
           "Natural fruit salad with homemade cream, nuts and honey",
         osmaliye: "Layers of special cream, angel hair and pistachio",
+        reserveDuCouventKSARA: "Reserve du Couvent KSARA",
+        carignanOldVineKSARA: "Carignan Old Vine KSARA",
+        reserveDuCouventKSARA2: "De l’Observatoire KSARA",
+        merwahKSARA: "Merwah KSARA",
+        sunsetKSARA: "Lebanese rosé wine",
+        arak: "Traditional Lebanese alcoholic drink",
+        beirut: "Lebanese beer",
+        teConMenta: "Tea with mint",
+        caféLibanésConCardamomo: "Lebanese coffee with cardamom",
+        labanAyran: "Lebanese yogurt drink",
+        limonada: "Fresh lemonade",
+        zumoDeNaranjaNatural: "Fresh orange juice",
       },
       reservation: {
         title: "RESERVATION",
@@ -298,24 +311,26 @@ const resources = {
         paragraph:
           "Masaya te invita a saborear la verdadera esencia del Líbano con platillos emblemáticos de mezze y parrilladas suculentas, todas diseñadas para brindar un rico viaje culinario.",
       },
+
       menuFilter: {
-        all: "Todos",
+        all: "Todo",
         salad: "Ensalada",
         mezah: "Mezah",
         arayes: "Arayes",
-        fette: "Fette",
+        fette: "Fatte",
         Sopas: "Sopas",
         Pescados: "Pescados",
         carne: "Carne",
         Combinados: "Combinados",
         appetizer: "Entrante",
         desserts: "Postres",
+        beverages: "Bebidas",
       },
       menuItem: {
         tabule:
           "Perejil, tomate, cebolla, sémola de trigo, aceite de oliva y limón",
         fattouch:
-          "Lechuga, tomate, cebolla, pimiento, pepino, perejil, rábanos, menta, pan frito, aceite de oliva y limón",
+          "Lechuga, tomate, cebolla, pimiento, pepino, perejil, rabanitos, menta, pan frito, aceite de oliva y limón",
         salatitLaban: "Yogur, pepino con ajo, menta seca y aceite de oliva",
         salatitGeban:
           "Queso feta, lechuga, tomate, rábano, pimiento, pepino y menta",
@@ -336,14 +351,14 @@ const resources = {
           "Berenjena al vapor con garbanzos, pimiento, cebolla y tomate",
         foul: "Habas negras con garbanzos, aceite y limón",
         quesoShanklish: "Queso curado acompañado de verduras picadas",
-        falafel: "Croquetas fritas de verduras con sésamo",
+        falafel: "Croquetas de verduras fritas con verduras y salsa de sésamo",
         kebbeDeCalabaza:
           "Croquetas de sémola de trigo con calabaza rellenas de verduras",
         warakInab:
           "Hojas de parra rellenas de arroz y verduras cocidas con aceite y limón",
-        rollitosDeQueso: "Rollos de hojaldre con queso fresco",
+        rollitosDeQueso: "Rollitos de hojaldre con queso fresco",
         empanadillasDeQueso: "Empanadillas rellenas de queso",
-        empanadillasDeEspinacas: "Empanadas rellenas de espinacas",
+        empanadillasDeEspinacas: "Empanadillas rellenas de espinacas",
         patataHarra:
           "Patatas, cilantro, ajo, pimiento picante y aceite de oliva",
         huevosShakshouka:
@@ -355,15 +370,15 @@ const resources = {
         arayesDeCarneYQueso:
           "Pan de pita relleno de carne picada con tomate, queso, cebolla y especias a la parrilla",
         arayesSujokConQueso:
-          "Pan de pita relleno de carne picante, queso y especias a la parrilla",
+          "Pan de pita relleno de carne picada especiada, queso y especias a la parrilla",
         fatte:
           "Garbanzos con picatostes, salsa de sésamo, yogur con frutos secos fritos y berenjena",
         fatteBilahme:
-          "Garbanzos con picatostes, carne picada, frutos secos fritos, salsa de sésamo, yogur y menta seca",
+          "Garbanzos con picatostes, carne picada, frutos secos fritos con salsa de sésamo, yogur y menta seca",
         fatteDajaj:
-          "Garbanzos con picatostes, pollo, frutos secos fritos, salsa de sésamo, yogur y menta seca",
+          "Garbanzos con picatostes, pollo, frutos secos fritos con salsa de sésamo, yogur y menta seca",
         fatteGambari:
-          "Garbanzos con picatostes, gambas, frutos secos fritos, salsa de sésamo, yogur y menta seca",
+          "Garbanzos con picatostes, gambas, frutos secos fritos con salsa de sésamo, yogur y menta seca",
         sopaDeLentejas: "Sopa de lentejas",
         sopaDePollo: "Sopa de pollo",
         sopaDeVerduras: "Sopa de verduras",
@@ -374,53 +389,45 @@ const resources = {
         shawarmaDeCarne: "Shawarma de ternera y cordero",
         shawarmaDePollo: "Shawarma de pollo",
         costillasDeCordero: "Costillas de cordero",
-        xixTawuk: "Cubos de pechuga de pollo a la parrilla",
+        xixTawuk: "Brochetas de pollo a la parrilla",
         musajan: "Pollo con especias especiales, cebolla y almendras",
         sujok: "Ternera picante con ajo, limón y tomate",
-        kafta: "Ternera picada con cebolla, perejil y especias",
-        kaftaBethini: "Ternera con salsa de crema de sésamo",
-        kaftaJach: "Ternera con perejil, especias, cebolla y salsa de tomate",
+        kafta: "Carne picada con cebolla, perejil y especias",
+        kaftaBethini: "Carne con crema de sésamo",
+        kaftaJach: "Carne con perejil, especias, cebolla y salsa de tomate",
         kebbeBilaban:
           "Croquetas de sémola rellenas de carne con crema de yogur",
         shawarmaPolloFalafel:
-          "Shawarma de pollo con falafel y 2 cremas a elección",
+          "Shawarma de pollo con falafel y 2 cremas a elegir",
         shawarmaCarneFalafel:
-          "Shawarma de ternera con falafel y 2 cremas a elección",
-        kaftaFalafel: "Kafta con falafel y 2 cremas a elección",
+          "Shawarma de ternera con falafel y 2 cremas a elegir",
+        kaftaFalafel: "Kafta con falafel y 2 cremas a elegir",
         xixTawukFalafel:
-          "Pollo marinado a la parrilla con falafel y 2 cremas a elección",
+          "Pollo marinado a la parrilla con falafel y 2 cremas a elegir",
         arayesDeCarneFalafel:
-          "Pan de pita relleno de carne a la parrilla con falafel y 2 cremas a elección",
-        sujokFalafel: "Sujok picante con falafel y 2 cremas a elección",
-        musajanFalafel: "Musajan con falafel y 2 cremas a elección",
-        kebbeDeCarne: "Kebbe de carne con falafel y 2 cremas a elección",
+          "Pan de pita relleno de carne a la parrilla con falafel y 2 cremas a elegir",
+        sujokFalafel: "Sujok picante con falafel y 2 cremas a elegir",
+        musajanFalafel: "Musajan con falafel y 2 cremas a elegir",
+        kebbeDeCarne: "Kebbe de carne con falafel y 2 cremas a elegir",
         superCarne: "Shawarma, XIX Tawuk, Arayes de Carne, Kafta",
         superVegetal:
           "Falafel, Warak Inab, Hummus, Mohamara, Kebbe de Calabaza, Arayes de Queso, Labne",
-
-        falafelAppetizer: "Croquetas fritas de verduras con sésamo",
-        warakInabAppetizer:
-          "Hojas de parra rellenas de arroz y verduras cocidas con aceite y limón",
-        arayesDeCarneAppetizer:
-          "Pan de pita relleno de carne picada con tomate, cebolla y especias a la parrilla",
-        empanadillasAppetizer: "Empanadillas rellenas",
-        labneAppetizer:
-          "Crema de yogur suave y ligera con menta seca y aceite de oliva",
-        kebbeAppetizer:
-          "Croquetas de sémola de trigo rellenas de ternera asada con cebolla y piñones",
-        tabuleAppetizer:
-          "Perejil, tomate, cebolla, sémola de trigo, aceite de oliva y limón",
-        halewetElGeben:
-          "Pasta de queso rellena de crema especial con pistachos",
         baklawa: "Hojaldre con miel relleno de frutos secos",
-        knefeQueso:
-          "Pastel hecho con crema o queso con almíbar de azúcar (servido caliente)",
-        namoura: "Postre de sémola perfumado con flor de azahar y almendras",
-        kashtaliye: "Nata casera con pistachos y almíbar de azúcar",
+        knefeQueso: "Pastel de crema o queso con almíbar (servido caliente)",
+        namoura: "Postre de sémola con aroma de azahar y almendras",
+        kashtaliye: "Crema casera con pistachos y almíbar",
         macedoniaConNataCasera:
-          "Ensalada de frutas naturales con nata casera, frutos secos y miel",
+          "Ensalada de frutas naturales con crema casera, frutos secos y miel",
         osmaliye: "Capas de crema especial, cabello de ángel y pistacho",
+        arak: "Bebida alcohólica tradicional libanesa",
+        beirut: "Cerveza libanesa",
+        teConMenta: "Té con menta",
+        caféLibanésConCardamomo: "Café libanés con cardamomo",
+        labanAyran: "Bebida de yogur libanesa",
+        limonada: "Limonada fresca",
+        zumoDeNaranjaNatural: "Jugo de naranja natural",
       },
+
       reservation: {
         title: "RESERVA",
         bigTitle:
