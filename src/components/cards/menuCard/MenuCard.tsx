@@ -11,6 +11,7 @@ export default function MenuCard(props: Props) {
   const toggleDetails = (id: number) => {
     setOpenCardId(openCardId === id ? null : id);
   };
+
   return (
     <>
       <div className={`${styles.card}`}>
@@ -24,7 +25,7 @@ export default function MenuCard(props: Props) {
           </div>
         </div>
         <div className={styles.cardBtn} onClick={() => toggleDetails(card.id)}>
-          <CiCircleInfo/>
+          <CiCircleInfo />
         </div>
 
         <div

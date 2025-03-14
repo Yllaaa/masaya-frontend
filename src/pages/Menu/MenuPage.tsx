@@ -9,6 +9,49 @@ import styles from "./menuPage.module.css";
 import Testimonial from "../Home/testimonial/Testimonial";
 import MenuHeader from "./menuHeader/MenuHeader";
 import { useTranslation } from "react-i18next";
+import tabule from "../../assets/masaya without bg/tabule.png";
+import fattouch from "../../assets/masaya without bg/FATTOUCH.png";
+import gebna from "../../assets/masaya without bg/gebna.png";
+import cuscus from "../../assets/masaya without bg/cuscus.png";
+import arabya from "../../assets/masaya without bg/arabya.png";
+import salataFalafel from "../../assets/masaya without bg/salataFalafel.png";
+import mutabal from "../../assets/masaya without bg/mutabal.png";
+import mohamara from "../../assets/masaya without bg/mohamara.png";
+import humus from "../../assets/masaya without bg/humus.png";
+import labna from "../../assets/masaya without bg/labna.png";
+import foul from "../../assets/masaya without bg/foul.png";
+import falafel1 from "../../assets/masaya without bg/falafel1.png";
+import kobeibasafra from "../../assets/masaya without bg/kobeibasafra.png";
+import roll from "../../assets/masaya without bg/roll.png";
+import kobeibasaframafroum from "../../assets/masaya without bg/kobeibasaframafroum.png";
+import saframa2fool from "../../assets/masaya without bg/saframa2fool.png";
+import patataspicantes from "../../assets/masaya without bg/patataspicantes.png";
+import m7amara from "../../assets/masaya without bg/m7amara (2).png";
+import fetta from "../../assets/masaya without bg/fetta.png";
+import fettaDjaj from "../../assets/masaya without bg/fettaDjaj.png";
+import fettagambari from "../../assets/masaya without bg/fettagambari.png";
+import albondigas from "../../assets/masaya without bg/albondigas.png";
+import gambasalajillo from "../../assets/masaya without bg/gambasalajillo.png";
+import langostinos from "../../assets/masaya without bg/langostinos.png";
+import mejillones from "../../assets/masaya without bg/mejillones.png";
+import platesShawermaFalafel from "../../assets/masaya without bg/platesShawermaFalafel.png";
+import cordero1 from "../../assets/masaya without bg/cordero1.png";
+import mix from "../../assets/masaya without bg/mix.png";
+import pppp from "../../assets/masaya without bg/pppp.png";
+import salchichas from "../../assets/masaya without bg/salchichas.png";
+import kaftajashjash from "../../assets/masaya without bg/kaftajashjash.png";
+import kebbedecalabaza from "../../assets/masaya without bg/kebbedecalabaza.png";
+import platesDjajFalafel from "../../assets/masaya without bg/platesDjajFalafel.png";
+import platesKuftaFalafel from "../../assets/masaya without bg/platesKuftaFalafel.png";
+import caca from "../../assets/masaya without bg/caca.png";
+import aaaa from "../../assets/masaya without bg/aaaa.png";
+import platesKobeibaFalafel from "../../assets/masaya without bg/platesKobeibaFalafel.png";
+import helwGeban from "../../assets/masaya without bg/helwGeban.png";
+import helwGeban22 from "../../assets/masaya without bg/helwGeban22.png";
+import kkk from "../../assets/masaya without bg/kkk.png";
+import namoura from "../../assets/masaya without bg/namoura.png";
+import mixHelw from "../../assets/masaya without bg/mixHelw.png";
+
 const MenuPage: React.FC = () => {
   const { t } = useTranslation();
   const [filter, setFilter] = useState(t("menuFilter.all"));
@@ -19,7 +62,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.tabule"),
-      image: "https://drive.google.com/uc?id=1oxMG1hGLVIkPqgT7m8e8TgtnSdMlA0Ye",
+      image: tabule,
     },
     {
       id: 2,
@@ -27,7 +70,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.fattouch"),
-      image: "https://drive.google.com/uc?id=1v5D7nOkbHzCjmWwEB0YLZg5LVz_4thSv",
+      image: fattouch,
     },
     {
       id: 3,
@@ -35,7 +78,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.salatitLaban"),
-      image: "https://drive.google.com/uc?id=1YMlyfjHmQI2RTOIANLPOmJgdFmc7yLAs",
+      image: labna,
     },
     {
       id: 4,
@@ -43,7 +86,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.salatitGeben"),
-      image: "https://drive.google.com/uc?id=1MoRfkwWH7J0nUXsf3dBuDn14lF_SxkcU",
+      image: gebna,
     },
     {
       id: 5,
@@ -51,7 +94,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.salatitCuscus"),
-      image: "https://drive.google.com/uc?id=1beqTkpuwVVKdhHhHPdCNrjbkoMAkqO4q",
+      image: cuscus,
     },
     {
       id: 6,
@@ -59,7 +102,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.salad"),
       price: 10.5,
       description: t("menuItem.salataArabye"),
-      image: "https://drive.google.com/uc?id=18HJPfd-O-hbBeEW4UDGS6GHSFo_eAwY2",
+      image: arabya,
     },
     {
       id: 7,
@@ -68,7 +111,7 @@ const MenuPage: React.FC = () => {
       price: 10.5,
       description: t("menuItem.salatitFalafel"),
 
-      image: "https://drive.google.com/uc?id=1CFUW8ufMlxKtWLTZWbQIV1OxfebbzqAy",
+      image: salataFalafel,
     },
     {
       id: 8,
@@ -76,7 +119,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.mezah"),
       price: 8.95,
       description: t("menuItem.mutabal"),
-      image: "https://drive.google.com/uc?id=12ybnJf3riXVCI1Mm0nSIo6LjD0gICPYX",
+      image: mutabal,
     },
     {
       id: 9,
@@ -85,7 +128,7 @@ const MenuPage: React.FC = () => {
       price: 8.95,
       description: t("menuItem.mohamara"),
 
-      image: "https://drive.google.com/uc?id=1ggwbvVI1Oy9wKp2FecpLPGXj9cKRQdNZ",
+      image: mohamara,
     },
     {
       id: 10,
@@ -93,7 +136,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.mezah"),
       price: 7.5,
       description: t("menuItem.hummus"),
-      image: "https://drive.google.com/uc?id=1Bz1SX0cG6dgtTat342P_W-6O3IBXum5Q",
+      image: humus,
     },
     {
       id: 11,
@@ -101,7 +144,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.mezah"),
       price: 8.25,
       description: t("menuItem.hummusBeiruti"),
-      image: "https://drive.google.com/uc?id=1MoRfkwWH7J0nUXsf3dBuDn14lF_SxkcU",
+      image: gebna,
     },
     {
       id: 12,
@@ -109,7 +152,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.mezah"),
       price: 8.25,
       description: t("menuItem.hummusDeRemolacha"),
-      image: "https://drive.google.com/uc?id=1Bz1SX0cG6dgtTat342P_W-6O3IBXum5Q",
+      image: humus,
     },
     {
       id: 13,
@@ -117,7 +160,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.mezah"),
       price: 7.95,
       description: t("menuItem.labne"),
-      image: "https://drive.google.com/uc?id=12wxeIZHmpqRdv9cWMfugbXa5ZdkOE05a",
+      image: labna,
     },
     {
       id: 14,
@@ -133,7 +176,7 @@ const MenuPage: React.FC = () => {
       price: 11.0,
       description: t("menuItem.foul"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1GLURtMPj7lQ0quoRyqDlRZmcDA3dNQXy",
+      image: foul,
     },
     {
       id: 16,
@@ -150,7 +193,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.falafel"),
 
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1t6M18N8qLtv-wIy8mK74bZT5BvimhGml",
+      image: falafel1,
     },
     {
       id: 18,
@@ -159,7 +202,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.kebbeDeCalabaza"),
 
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1COr7RBzSm0WzLOvXErz29BWVgbaT9sq3",
+      image: kobeibasafra,
     },
     {
       id: 19,
@@ -176,7 +219,7 @@ const MenuPage: React.FC = () => {
       price: 9.0,
       description: t("menuItem.rollitosDeQueso"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1lKMHYiVuIx_s7ISYnfh4vM27pkO8hu7J",
+      image: roll,
     },
     {
       id: 21,
@@ -184,7 +227,7 @@ const MenuPage: React.FC = () => {
       price: 10.0,
       description: t("menuItem.empanadillasDeQueso"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1xFgW2_ROpnERLugfOwVZYe8azCwKl2Cb",
+      image: kobeibasaframafroum,
     },
     {
       id: 22,
@@ -192,7 +235,7 @@ const MenuPage: React.FC = () => {
       price: 10.0,
       description: t("menuItem.empanadillasDeEspinacas"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1VIa_A7Za6Cs0Z9_lZ4R2et2TeYZSkNsq",
+      image: saframa2fool,
     },
     {
       id: 23,
@@ -200,7 +243,7 @@ const MenuPage: React.FC = () => {
       price: 9.0,
       description: t("menuItem.patataHarra"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1AeKH1534gjaq7OSMxfZ6tva_jk-DVdzw",
+      image: patataspicantes,
     },
     {
       id: 24,
@@ -217,7 +260,7 @@ const MenuPage: React.FC = () => {
       price: 5.5,
       description: t("menuItem.platoDeArroz"),
       type: t("menuFilter.mezah"),
-      image: "https://drive.google.com/uc?id=1MoRfkwWH7J0nUXsf3dBuDn14lF_SxkcU",
+      image: gebna,
     },
     {
       id: 26,
@@ -225,7 +268,7 @@ const MenuPage: React.FC = () => {
       price: 9,
       type: t("menuFilter.arayes"),
       description: t("menuItem.arayesDeQueso"),
-      image: "https://drive.google.com/uc?id=1TvOqvdi4l8UwloD4DRChtdkLvAGyscgK",
+      image: m7amara,
     },
     {
       id: 27,
@@ -234,7 +277,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.arayes"),
       description: t("menuItem.arayesDeCarne"),
 
-      image: "https://drive.google.com/uc?id=1aSPlQvHTSPrwWyHd1V_OWb21BYjFX4N3",
+      image: m7amara,
     },
     {
       id: 28,
@@ -243,7 +286,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.arayes"),
       description: t("menuItem.arayesDeCarneYQueso"),
 
-      image: "https://drive.google.com/uc?id=1TvOqvdi4l8UwloD4DRChtdkLvAGyscgK",
+      image: m7amara,
     },
     {
       id: 29,
@@ -252,7 +295,7 @@ const MenuPage: React.FC = () => {
       type: t("menuFilter.arayes"),
       description: t("menuItem.arayesSujokConQueso"),
 
-      image: "https://drive.google.com/uc?id=1aSPlQvHTSPrwWyHd1V_OWb21BYjFX4N3",
+      image: m7amara,
     },
     {
       id: 30,
@@ -261,7 +304,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.fatte"),
 
       type: t("menuFilter.fette"),
-      image: "https://drive.google.com/uc?id=11ckBWhSGAsz8xGdLBZCb9aZ3a9Vw9Wlh",
+      image: fetta,
     },
     {
       id: 31,
@@ -270,7 +313,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.fatteBilahme"),
 
       type: t("menuFilter.fette"),
-      image: "https://drive.google.com/uc?id=11ckBWhSGAsz8xGdLBZCb9aZ3a9Vw9Wlh",
+      image: fetta,
     },
     {
       id: 32,
@@ -279,7 +322,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.fatteDajaj"),
 
       type: t("menuFilter.fette"),
-      image: "https://drive.google.com/uc?id=1QKzpJ9ZGPSRXTvUYNHNXd27M83503lCF",
+      image: fettaDjaj,
     },
     {
       id: 33,
@@ -288,7 +331,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.fatteGambari"),
 
       type: t("menuFilter.fette"),
-      image: "https://drive.google.com/uc?id=1Dm7h1wDyxQ15owkaNHFcia7YW5bNtPSq",
+      image: fettagambari,
     },
     {
       id: 34,
@@ -296,7 +339,7 @@ const MenuPage: React.FC = () => {
       price: 9.5,
       description: t("menuItem.sopaDeLentejas"),
       type: t("menuFilter.Sopas"),
-      image: "https://drive.google.com/uc?id=1v5D7nOkbHzCjmWwEB0YLZg5LVz_4thSv",
+      image: fattouch,
     },
     {
       id: 35,
@@ -304,7 +347,7 @@ const MenuPage: React.FC = () => {
       price: 9.5,
       description: t("menuItem.sopaDePollo"),
       type: t("menuFilter.Sopas"),
-      image: "https://drive.google.com/uc?id=11GnOOJCrF9QPul_Lg_Zg7TVzVopqxX-O",
+      image: albondigas,
     },
     {
       id: 36,
@@ -312,7 +355,7 @@ const MenuPage: React.FC = () => {
       price: 9.5,
       description: t("menuItem.sopaDeVerduras"),
       type: t("menuFilter.Sopas"),
-      image: "https://drive.google.com/uc?id=1v5D7nOkbHzCjmWwEB0YLZg5LVz_4thSv",
+      image: fattouch,
     },
     {
       id: 37,
@@ -320,7 +363,7 @@ const MenuPage: React.FC = () => {
       price: 11.25,
       description: t("menuItem.sopaDePescado"),
       type: t("menuFilter.Sopas"),
-      image: "https://drive.google.com/uc?id=1DVqa-HIl38XBExbdYll-ppb_cXcZWXUy",
+      image: gambasalajillo,
     },
     {
       id: 38,
@@ -328,7 +371,7 @@ const MenuPage: React.FC = () => {
       price: 18.5,
       description: t("menuItem.gambasPlancha"),
       type: t("menuFilter.Pescados"),
-      image: "https://drive.google.com/uc?id=1Fawf_Ja1hHQg9bcmT1mXCV-BzhEEBmAj",
+      image: langostinos,
     },
     {
       id: 39,
@@ -336,7 +379,7 @@ const MenuPage: React.FC = () => {
       price: 18.5,
       description: t("menuItem.samakeHarra"),
       type: "Pescados",
-      image: "https://drive.google.com/uc?id=18_AQ7lPtbtKe8Evhr6y8ZmuFuUK6riKM",
+      image: langostinos,
     },
     {
       id: 40,
@@ -344,7 +387,7 @@ const MenuPage: React.FC = () => {
       price: 18.5,
       description: t("menuItem.samakeBethini"),
       type: "Pescados",
-      image: "https://drive.google.com/uc?id=1LhRLtkNsUDKYaWbv-l_ThvgoIMiacube",
+      image: mejillones,
     },
     {
       id: 41,
@@ -352,7 +395,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.shawarmaDeCarne"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1FPss-YExTKXqyBFaRnuGa8yBK3BCMRGO",
+      image: platesShawermaFalafel,
     },
     {
       id: 42,
@@ -360,7 +403,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.shawarmaDePollo"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1tg0t7svgBKmnoq2nPwPS9-b4PG2JmYnU",
+      image: mix,
     },
     {
       id: 43,
@@ -368,7 +411,7 @@ const MenuPage: React.FC = () => {
       price: 19.5,
       description: t("menuItem.costillasDeCordero"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1hhHPWZNlcZPUOTEUiapGiArT3e3m6Bc0",
+      image: cordero1,
     },
     {
       id: 44,
@@ -376,7 +419,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.xixTawuk"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1QKzpJ9ZGPSRXTvUYNHNXd27M83503lCF",
+      image: fettaDjaj,
     },
     {
       id: 45,
@@ -384,7 +427,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.musajan"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=10iTuGCcQJVs2U7DfAak5MXbkXBeRnakT",
+      image: pppp,
     },
     {
       id: 46,
@@ -392,7 +435,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.sujok"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1pWPan-L0J5Ke5BtUN2HR-T_AR2pKZ2Nn",
+      image: salchichas,
     },
     {
       id: 47,
@@ -400,7 +443,7 @@ const MenuPage: React.FC = () => {
       price: 14.95,
       description: t("menuItem.kafta"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1cv0T7DhOc5JdCE5NOSa1okAvKBNkbh0u",
+      image: kaftajashjash,
     },
     {
       id: 48,
@@ -408,7 +451,7 @@ const MenuPage: React.FC = () => {
       price: 16.5,
       description: t("menuItem.kaftaBethini"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1cv0T7DhOc5JdCE5NOSa1okAvKBNkbh0u",
+      image: kaftajashjash,
     },
     {
       id: 49,
@@ -424,7 +467,7 @@ const MenuPage: React.FC = () => {
       price: 16.5,
       description: t("menuItem.kebbeBilaban"),
       type: t("menuFilter.carne"),
-      image: "https://drive.google.com/uc?id=1DgiTsXIBw-qEW5eMzACOsNSb1uRpq_e4",
+      image: kebbedecalabaza,
     },
     {
       id: 51,
@@ -432,7 +475,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.shawarmaPolloFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1ehpb7drCjWsLEvrqIPRPZhkl4BU-ovYs",
+      image: platesDjajFalafel,
     },
     {
       id: 52,
@@ -440,7 +483,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.shawarmaCarneFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1hQeSL1sK4V_VyM0LMff8x1GNImGMLH9g",
+      image: platesShawermaFalafel,
     },
     {
       id: 53,
@@ -448,7 +491,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.kaftaFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1WjpNPFswNgbzYIIaCCrSYbWcMKiLlEWF",
+      image: platesKuftaFalafel,
     },
     {
       id: 54,
@@ -456,7 +499,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.xixTawukFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1ytacyBvDBZ_-fDzbfWDFmrG3GCGiXpcL",
+      image: aaaa,
     },
     {
       id: 55,
@@ -464,7 +507,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.arayesDeCarneFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1uDmNZ1BZLAxpeqgkNEZQW_HXPWqtsZ8-",
+      image: caca,
     },
     {
       id: 56,
@@ -472,7 +515,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.sujokFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1tg0t7svgBKmnoq2nPwPS9-b4PG2JmYnU",
+      image: mix,
     },
     {
       id: 57,
@@ -480,7 +523,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.musajanFalafel"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1uDmNZ1BZLAxpeqgkNEZQW_HXPWqtsZ8-",
+      image: caca,
     },
     {
       id: 58,
@@ -488,7 +531,7 @@ const MenuPage: React.FC = () => {
       price: 16.95,
       description: t("menuItem.kebbeDeCarne"),
       type: t("menuFilter.combinados"),
-      image: "https://drive.google.com/uc?id=1BAj0grrFkf1gnlpZCpy3EZyJaEtpb8J6",
+      image: platesKobeibaFalafel,
     },
     {
       id: 59,
@@ -513,7 +556,7 @@ const MenuPage: React.FC = () => {
       price: 42,
       description: "Chickpea cream with sesame sauce",
       type: "Menu Degustación",
-      image: "https://drive.google.com/uc?id=1Bz1SX0cG6dgtTat342P_W-6O3IBXum5Q",
+      image: humus,
     },
     {
       id: 62,
@@ -521,7 +564,7 @@ const MenuPage: React.FC = () => {
       price: 42,
       description: "Cream of roasted eggplants with sesame sauce",
       type: "Menu Degustación",
-      image: "https://drive.google.com/uc?id=12ybnJf3riXVCI1Mm0nSIo6LjD0gICPYX",
+      image: mutabal,
     },
     {
       id: 63,
@@ -530,7 +573,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.falafelAppetizer"),
 
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=1t6M18N8qLtv-wIy8mK74bZT5BvimhGml",
+      image: falafel1,
     },
     {
       id: 64,
@@ -548,7 +591,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.arayesDeCarneAppetizer"),
 
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=1uDmNZ1BZLAxpeqgkNEZQW_HXPWqtsZ8-",
+      image: caca,
     },
     {
       id: 66,
@@ -556,7 +599,7 @@ const MenuPage: React.FC = () => {
       price: 42,
       description: t("menuItem.empanadillasAppetizer"),
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=1VIa_A7Za6Cs0Z9_lZ4R2et2TeYZSkNsq",
+      image: saframa2fool,
     },
     {
       id: 67,
@@ -564,7 +607,7 @@ const MenuPage: React.FC = () => {
       price: 42,
       description: t("menuItem.labneAppetizer"),
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=12wxeIZHmpqRdv9cWMfugbXa5ZdkOE05a",
+      image: labna,
     },
     {
       id: 68,
@@ -573,7 +616,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.kebbeAppetizer"),
 
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=1BAj0grrFkf1gnlpZCpy3EZyJaEtpb8J6",
+      image: platesKobeibaFalafel,
     },
     {
       id: 69,
@@ -582,7 +625,7 @@ const MenuPage: React.FC = () => {
       description: t("menuItem.tabuleAppetizer"),
 
       type: t("menuFilter.appetizer"),
-      image: "https://drive.google.com/uc?id=1oxMG1hGLVIkPqgT7m8e8TgtnSdMlA0Ye",
+      image: tabule,
     },
     {
       id: 70,
@@ -590,7 +633,7 @@ const MenuPage: React.FC = () => {
       price: 7.0,
       description: t("menuItem.halewetElGeben"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/uc?id=1-IiXUH--phmw84fGMf7mg_LurAlv0mfN",
+      image: helwGeban,
     },
     {
       id: 71,
@@ -598,7 +641,7 @@ const MenuPage: React.FC = () => {
       price: 2.25,
       description: t("menuItem.baklawa"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/uc?id=1EGZ2wiZqdoHPNCTOR8kpW4YARJeKfxtD",
+      image: helwGeban22,
     },
     {
       id: 72,
@@ -606,7 +649,7 @@ const MenuPage: React.FC = () => {
       price: 7.5,
       description: t("menuItem.knefeQueso"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/uc?id=1i4lC3gapp345VssJ-N7U8Gfnz7LxneF1",
+      image: kkk,
     },
     {
       id: 73,
@@ -614,7 +657,7 @@ const MenuPage: React.FC = () => {
       price: 4.5,
       description: t("menuItem.namoura"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/uc?id=1fh3HgKer-cemxHnR-xbJItGK_dNcm95A",
+      image: namoura,
     },
     {
       id: 74,
@@ -630,7 +673,7 @@ const MenuPage: React.FC = () => {
       price: 6.75,
       description: t("menuItem.macedoniaConNataCasera"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/uc?id=1p2mCjNGOFeSm2Zp8jt3bdCElZqMZweWl",
+      image: mixHelw,
     },
     {
       id: 76,
@@ -638,7 +681,7 @@ const MenuPage: React.FC = () => {
       price: 7.0,
       description: t("menuItem.osmaliye"),
       type: t("menuFilter.desserts"),
-      image: "https://drive.google.com/file/d/1ztIVwJkwgyJR9K63X05Pdkn-z1ckBJYG/view?usp=drive_link",
+      image: mixHelw,
     },
     {
       id: 77,
