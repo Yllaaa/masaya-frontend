@@ -6,15 +6,16 @@ import menuImg from "../../../assets/menu/menu1.jpg";
 import MenuCard from "../../cards/menuCard/MenuCard";
 import { useTranslation } from "react-i18next";
 import tabule from "../../../assets/masaya without bg/tabule.png";
-import fattouch from "../../../assets/masaya without bg/FATTOUCH.png";
-import gebna from "../../../assets/masaya without bg/gebna.png";
+import fattouch from "../../../assets/Masaya (1)/Masaya/Salads/fatush.png";
+import gebna from "../../../assets/Masaya (1)/Masaya/Salads/SALATIT GEBEN.png";
 import cuscus from "../../../assets/masaya without bg/cuscus.png";
+import fatachicken from "../../../assets/Masaya (1)/Masaya/Fatte/FATTE.png";
 import arabya from "../../../assets/masaya without bg/arabya.png";
 import salataFalafel from "../../../assets/masaya without bg/salataFalafel.png";
 import mutabal from "../../../assets/masaya without bg/mutabal.png";
 import mohamara from "../../../assets/masaya without bg/mohamara.png";
-import humus from "../../../assets/masaya without bg/humus.png";
-import labna from "../../../assets/masaya without bg/labna.png";
+import humus from "../../../assets/Masaya (1)/Masaya/Appetizers/hummus.png";
+import labna from "../../../assets/Masaya (1)/Masaya/Salads/Salatit Laban.png";
 import foul from "../../../assets/masaya without bg/foul.png";
 import falafel1 from "../../../assets/masaya without bg/falafel1.png";
 import kobeibasafra from "../../../assets/masaya without bg/kobeibasafra.png";
@@ -23,6 +24,7 @@ import kobeibasaframafroum from "../../../assets/masaya without bg/kobeibasafram
 import saframa2fool from "../../../assets/masaya without bg/saframa2fool.png";
 import patataspicantes from "../../../assets/masaya without bg/patataspicantes.png";
 import m7amara from "../../../assets/masaya without bg/m7amara (2).png";
+import sujok from "../../../assets/Masaya (1)/Masaya/CARNE/SUJOK (PICANTE) .png";
 import fetta from "../../../assets/masaya without bg/fetta.png";
 import fettaDjaj from "../../../assets/masaya without bg/fettaDjaj.png";
 import fettagambari from "../../../assets/masaya without bg/fettagambari.png";
@@ -33,8 +35,7 @@ import mejillones from "../../../assets/masaya without bg/mejillones.png";
 import platesShawermaFalafel from "../../../assets/masaya without bg/platesShawermaFalafel.png";
 import cordero1 from "../../../assets/masaya without bg/cordero1.png";
 import mix from "../../../assets/masaya without bg/mix.png";
-import pppp from "../../../assets/masaya without bg/pppp.png";
-import salchichas from "../../../assets/masaya without bg/salchichas.png";
+import musajan from "../../../assets/Masaya (1)/Masaya/COMBINED/MUSAJAN  FALAFEL - 2 CREMAS A ELEJIR.png";
 import kaftajashjash from "../../../assets/masaya without bg/kaftajashjash.png";
 import kebbedecalabaza from "../../../assets/masaya without bg/kebbedecalabaza.png";
 import platesDjajFalafel from "../../../assets/masaya without bg/platesDjajFalafel.png";
@@ -47,7 +48,6 @@ import helwGeban22 from "../../../assets/masaya without bg/helwGeban22.png";
 import kkk from "../../../assets/masaya without bg/kkk.png";
 import namoura from "../../../assets/masaya without bg/namoura.png";
 import mixHelw from "../../../assets/masaya without bg/mixHelw.png";
-
 export default function MenuSlider() {
   const { t } = useTranslation();
   const cards = [
@@ -290,7 +290,7 @@ export default function MenuSlider() {
       type: t("menuFilter.arayes"),
       description: t("menuItem.arayesSujokConQueso"),
 
-      image: m7amara,
+      image: sujok,
     },
     {
       id: 30,
@@ -299,7 +299,7 @@ export default function MenuSlider() {
       description: t("menuItem.fatte"),
 
       type: t("menuFilter.fette"),
-      image: fetta,
+      image: fatachicken,
     },
     {
       id: 31,
@@ -317,7 +317,7 @@ export default function MenuSlider() {
       description: t("menuItem.fatteDajaj"),
 
       type: t("menuFilter.fette"),
-      image: fettaDjaj,
+      image: fatachicken,
     },
     {
       id: 33,
@@ -422,7 +422,7 @@ export default function MenuSlider() {
       price: 14.95,
       description: t("menuItem.musajan"),
       type: t("menuFilter.carne"),
-      image: pppp,
+      image: musajan,
     },
     {
       id: 46,
@@ -430,7 +430,7 @@ export default function MenuSlider() {
       price: 14.95,
       description: t("menuItem.sujok"),
       type: t("menuFilter.carne"),
-      image: salchichas,
+      image: sujok,
     },
     {
       id: 47,
@@ -518,7 +518,7 @@ export default function MenuSlider() {
       price: 16.95,
       description: t("menuItem.musajanFalafel"),
       type: t("menuFilter.combinados"),
-      image: caca,
+      image: musajan,
     },
     {
       id: 58,
